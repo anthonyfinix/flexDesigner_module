@@ -1,0 +1,26 @@
+{
+  "name": "flexDesigner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyfinix/flexDesigner_module.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyfinix/flexDesigner_module/issues"
+  },
+  "homepage": "https://github.com/anthonyfinix/flexDesigner_module#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "three": "^0.121.1"
+  }
+}

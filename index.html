@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Designer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="row designer">
+            <div class="col">
+                <div class="d-flex controls-main-wrapper">
+                    <div class="controls-button-wrapper">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#text">
+                            <span class="material-icons pt-1">text_fields</span>
+                        </button>
+                        <button class="btn mt-2" type="button" data-toggle="collapse" data-target="#collapseExample">
+                            <span class="material-icons pt-1">format_paint</span>
+                        </button>
+                        <button class="btn mt-2" type="button" data-toggle="collapse" data-target="#scene">
+                            <span class="material-icons pt-1">public</span>
+                        </button>
+                    </div>
+                    <div class="controls-wrapper w-100">
+                        <div class="collapse show" id="text">
+                            <div class="card border-0 card-body pt-2">
+                                <h5 class="font-weight-bold">Font</h5>
+                                <div class="form-group mt-2">
+                                    <label>Text</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card border-0 card-body">
+                                according
+                            </div>
+                        </div>
+                        <div class="collapse" id="scene">
+                            <div class="card border-0 card-body pt-2">
+                                <h5 class="font-weight-bold">Scene</h5>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="render" class="col">
+
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="module">
+        import init from './js/index.js';
+        init()
+    </script>
+</body>
+
+</html>
